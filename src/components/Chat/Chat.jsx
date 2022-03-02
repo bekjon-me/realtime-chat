@@ -49,7 +49,7 @@ const Chat = () => {
                           key={message.id}
                           style={{
                               margin: 10,
-                              backgroundColor: user.uid === message.iud ? "rgba(255, 255, 255, 0.7)" : "rgba(228, 83, 167, 0.549)",
+                              backgroundColor: user.uid === message.uid ? "rgba(255, 255, 255, 0.7)" : "rgba(228, 83, 167, 0.549)",
                               marginLeft: user.uid === message.uid ? "auto" : "10px",
                               width: "40%",
                               padding: 5,
